@@ -1,0 +1,9 @@
+1. Crea cuenta gratis en github.com.
+2. Arriba a la derecha: "+" -> New repository. Ponle nombre "nutria-ia", déjalo Public y crea.
+3. Clic en "uploading an existing file". Arrastra TODO el contenido de esta carpeta
+   (src, build.gradle, settings.gradle, README.md y la carpeta oculta .github). Clic en "Commit changes".
+   Si .github no se sube: Add file -> Create new file, escribe .github/workflows/build.yml y pega el contenido.
+4. Ve a la pestaña "Actions". Espera 5-10 min a que salga una palomita verde.
+5. Entra a esa ejecución, baja hasta "Artifacts" y descarga "nutria-ia-mod". Dentro del zip está el .jar.
+6. Copia el .jar (el que NO dice "sources") a .minecraft/mods con Forge 1.20.1.
+Si sale una X roja: abre la ejecución, copia el error y pásamelo.
